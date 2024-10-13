@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    transition: width 0.5s ease, height 0.5s ease;
+}
+
+#posts, #qui-est-esse, #comments {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 8px #aaa;
+    overflow: auto;
+    transition: flex 0.5s ease;
+}
+#posts div {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+#posts div:hover {
+    background-color: #f0f0f0;
+}
+#qui-est-esse, #comments {
+    display: none;
+    background-color: #f9f9f9;
+}
+#qui-est-esse p, #comments p {
+    margin: 0;
+}

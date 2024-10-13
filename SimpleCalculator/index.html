@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenu">
+        <div class="calculator">
+            <div class="items">
+                <h1>Simple Calculator</h1>
+                <input type="text" id="nbr1">
+                <select name="options" id="calcule">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input type="text" id="nbr2">
+                <button id="calculateBtn">Calculate</button>
+                <label id="result"></label>
+            </div>
+        </div>
+    </div>
+    <script src="calculate.js"></script>
+    <script> document.getElementById('calculateBtn').addEventListener('click', calculate);</script
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="style.js"></script> <!-- defer to ensure JS is loaded after the DOM -->
+    <title>Alarm Clock</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="clock">
+            <img src="https://img.icons8.com/?size=512&id=kZYJCScZSxUH&format=png" alt="clock-icon" width="74px">
+            <div class="timer" id="clock"></div>
+        </div>
+        <div class="reglage">
+            <select id="hourSelect">
+                <option value="hour">Hour</option>
+            </select>
+            <select id="minuteSelect">
+                <option value="min">Minute</option>
+            </select>
+            <select id="ampmSelect">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+        </div>
+        <button onclick="setAlarm()">Set Alarm</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenu {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator {
+    height: 290px;
+    border: solid 2px;
+    border-radius: 10px;
+    width: 300px;
+
+
+}
+
+.items {
+    padding: 10px;
+    padding-top: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.items h1 {
+    color: aqua;
+    font-size: 30px;
+}
+.items button{
+    height: 30px;
+    width: 80px;
+    font-size: 18px ;
+}
+
+.items label {
+    height: 30px;
+    width: auto ;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(47, 169, 178) 2px;
+    border-radius: 10px;
+}

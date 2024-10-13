@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1919;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock {
+    font-size: 4em;
+    width:800px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 140px;
+    margin: 150px;
+    border-radius: 10px;
+    box-shadow: rgb(7, 38, 43) 10px 8px 20px;
+    background-color: #000000; 
+    padding: 30px; 
+    color: aqua;
+}

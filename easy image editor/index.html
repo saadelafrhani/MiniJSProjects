@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Image Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Easy Image Editor</h1>
+        </div>
+        <div class="main-app">
+            <div class="main-controls">
+                <div class="editor">
+                    <p>Filters</p>
+                    <div class="filters">
+                        <button onclick="changeFilter('brightness')">Brightness</button>
+                        <button onclick="changeFilter('saturate')">Saturation</button>
+                        <button onclick="changeFilter('invert')">Inversion</button>
+                        <button onclick="changeFilter('grayscale')">Grayscale</button>
+                    </div>
+                    <p class="operation">Select an option</p>
+                    <input class="range" type="range" min="0" max="100" value="50" id="rangeInput" oninput="applyFilter()">
+                    <p>Rotate & flip</p>
+                    <div class="rotations">
+                        <button onclick="rotateImage(-90)"><img src="assets/rotate-left.png" alt=""></button>
+                        <button onclick="rotateImage(90)"><img src="assets/rotating-arrow-to-the-right.png" alt=""></button>
+                        <button onclick="flipImage('horizontal')"><img src="assets/flip.png" alt=""></button>
+                        <button onclick="flipImage('vertical')"><img src="assets/flip (1).png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img id="image" class="editable-image" src="Screenshot from 2024-02-25 21-00-08.png" alt="Uploaded Image" width="1000px" height="100%">
+            </div>
+        </div>
+        <div class="controls">
+            <button class="reset" onclick="resetFilters()">Reset filters</button>
+            <div class="save-controls">
+                <button class="choose" onclick="chooseImage()">Choose image</button>
+                <button class="save" onclick="saveImage()">Save image</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

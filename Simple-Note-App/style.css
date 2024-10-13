@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-weight: lighter;
+    color: rgb(69 71 74);
+    margin: 15px;
+}
+
+hr {
+    border: solid 2px rgb(69 71 74);
+    border-radius: 20px;
+    width: 55px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    height: 25px;
+    width: 450px;
+}
+
+.colors {
+    width: 460px;
+    margin-top: 5px;
+    display: flex;
+    ;
+}
+
+.colors .white {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+.colors .orange {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(255 211 127);
+    margin-right: 5px;
+}
+
+.colors .yellow {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(255 250 129);
+    margin-right: 5px;
+}
+
+.colors .lightgreen {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(213 250 128);
+    margin-right: 5px;
+
+}
+
+.colors .green {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(121 248 128);
+    margin-right: 5px;
+}
+
+.colors .halfgreenblue {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(121 251 214);
+    margin-right: 5px;
+}
+
+.colors .skyblue {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(121 253 254);
+    margin-right: 5px;
+}
+
+.colors .blue {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(122 214 253);
+    margin-right: 5px;
+}
+
+.colors .darkblue {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(123 132 252);
+    margin-right: 5px;
+}
+
+.colors .purple {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(214 135 252);
+    margin-right: 5px;
+}
+
+.colors .pink {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    background-color: rgb(255 137 253);
+}
+
+.small-container {
+    margin-top: 18px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.small-container button {
+    width: 35px;
+    height: 35px;
+}
+
+.btn1 {
+    background-color: white;
+    border: 2px solid rgb(21 162 184);
+    margin-right: 3px;
+    font-size: 20px;
+    color: rgb(21 162 184);
+}
+
+.btn2 {
+    background-color: white;
+    border: 2px solid rgb(220 53 69);
+}
+
+.colors button.selected {
+    border: 2px solid rosybrown;
+}
+
+
+.notes {
+    margin-top: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.note1 {
+    width: 30%;
+    padding: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(214 135 252);
+}
+
+.note2 {
+    padding: 20px;
+    border-radius: 5px;
+
+    background-color: rgb(121 253 254);
+}
+
+.note3 {
+    padding: 20px;
+    border-radius: 5px;
+
+    background-color: rgb(213 250 128);
+}
+
+.notes {
+    margin-top: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

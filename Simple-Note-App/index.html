@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Note App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>SIMPLE NOTE APP</h1>
+    <hr>
+    <input type="text" placeholder="Something here.." id="input">
+    <div class="colors">
+        <button class="white" onclick="getColor('rgb(255, 255, 255)')"></button>
+        <button class="orange" onclick="getColor('rgb(255 211 127)')"></button>
+        <button class="yellow" onclick="getColor('rgb(255 250 129)')"></button>
+        <button class="lightgreen" onclick="getColor('rgb(213 250 128)')"></button>
+        <button class="green" onclick="getColor(' rgb(121 248 128)')"></button>
+        <button class="halfgreenblue" onclick="getColor('rgb(121 251 214)')"></button>
+        <button class="skyblue" onclick="getColor('rgb(121 253 254)')"></button>
+        <button class="blue" onclick="getColor('rgb(122 214 253)')"></button>
+        <button class="darkblue" onclick="getColor('rgb(123 132 252)')"></button>
+        <button class="purple" onclick="getColor('rgb(214 135 252)')"></button>
+        <button class="pink" onclick="getColor('rgb(255 137 253)')"></button>
+        <div class="small-container">
+            <button class="btn1" onclick="addTask()">+</button>
+            <button class="btn2" onclick="removeTasks()"><img src="eraser.png" alt="delete-icon"></button>
+        </div>
+    </div>
+
+    <div class="notes">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
